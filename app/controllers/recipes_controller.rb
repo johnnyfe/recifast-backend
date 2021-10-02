@@ -24,6 +24,12 @@ class RecipesController < ApplicationController
         render json: recipe, status: :accepted
     end
 
+    def destroy
+        recipe = find_recipe
+        recipe.destroy
+        head :no_content
+    end
+
     private
 
     def params_recipe
