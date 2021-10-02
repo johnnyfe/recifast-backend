@@ -21,7 +21,7 @@ class RecipesController < ApplicationController
     private
 
     def params_recipe
-        params.permit(:calories, :preparation_time, :video_url, :instructions, :description, :user, :name)
+        params.permit(:calories, :preparation_time, :image_url, :video_url, :instructions, :description, :name)
     end
 
     def render_not_found
@@ -32,5 +32,4 @@ class RecipesController < ApplicationController
         render json: { error: invalid.record.errors.full_messages }, status: :unprocessable_entity
     end
 
-    
 end
