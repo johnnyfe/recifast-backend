@@ -21,7 +21,7 @@ class RecipesController < ApplicationController
     private
 
     def params_recipe
-        params.permit(:calories, :preparation_time, :image_url, :video_url, :instructions, :description, :name)
+        params.permit(:calories, :preparation_time, :image_url, :video_url, :instructions, :description, :name, :user_id)
     end
 
     def render_not_found
