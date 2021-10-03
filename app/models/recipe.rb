@@ -1,7 +1,9 @@
 class Recipe < ApplicationRecord
   belongs_to :user
   has_many :comments, dependent: :destroy
+  has_many :cooking_lists, dependent: :destroy
   has_many :ingredients, through: :cooking_lists
+  
 
   validates :name, uniqueness: true, presence: true
   validates :preparation_time, presence: true, numericality: { only_integer: true , greater_than:0, less_than: 1441}
