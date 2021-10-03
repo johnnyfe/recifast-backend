@@ -16,8 +16,8 @@ Ingredient.destroy_all
 
 puts "Seeding users"
 
-    user1 = User.create!(username: "ken123", password_digest: "apple111", image_url: "https://content.fortune.com/wp-content/uploads/2018/07/gettyimages-961697338.jpg", name: "Mark Zuckerberg", bio: "I am the CEO of Facebook");
-    user2 = User.create!(username: "virgin1", password_digest: "tiktok222", image_url: "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f469ea85cc82fc8d6083f05%2F0x0.jpg", name: "Jeff Bezos", bio: "I was the CEO of Amazon");
+    user1 = User.create!(username: "ken123", password_digest: "apple111", image_url: "https://content.fortune.com/wp-content/uploads/2018/07/gettyimages-961697338.jpg", name: "Mark Zuckerberg", bio: "I am the CEO of Facebook", recovery_password: "apple111" );
+    user2 = User.create!(username: "virgin1", password_digest: "tiktok222", image_url: "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f469ea85cc82fc8d6083f05%2F0x0.jpg", name: "Jeff Bezos", bio: "I was the CEO of Amazon", recovery_password: "tiktok222");
 
 puts "Seeding recipes"
 
