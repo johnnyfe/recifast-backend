@@ -33,7 +33,7 @@ class CookingListsController < ApplicationController
     private
 
     def params_cookingList
-        params.permit(:name, :calories, :category, :image_url, :price, :quantity, :portion)
+        params.permit(:ingredient_quantity, :ingredient_portion, :recipe_id, :ingredient_id)
     end
     
     def find_cookingList
