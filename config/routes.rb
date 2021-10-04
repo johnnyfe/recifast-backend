@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   resources :cooking_lists
   resources :ingredients
   resources :comments
-  resources :recipes, only: [:index, :create]
+  resources :recipes
   resources :users
 
   get "/me", to: "users#show"

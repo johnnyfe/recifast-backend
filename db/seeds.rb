@@ -253,6 +253,6 @@ puts "Seeding Cooking lists"
     recipe6_milk = CookingList.create!(recipe: recipe6, ingredient: milk, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
     recipe6_water = CookingList.create!(recipe: recipe6, ingredient: water, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
     recipe6_salt = CookingList.create!(recipe: recipe6, ingredient: salt, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe6_butter = CookingList.create!(recipe: recipe6, ingredient: flour, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
+    recipe6_butter = CookingList.create!(recipe: recipe6, ingredient: butter, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
 
 puts "Seeding Completed"
