@@ -4,6 +4,7 @@ class Recipe < ApplicationRecord
   has_many :cooking_lists, dependent: :destroy
   has_many :ingredients, through: :cooking_lists
   
+  accepts_nested_attributes_for :user, :ingredients
 
   validates :name, uniqueness: true, presence: true
   validates :preparation_time, presence: true, numericality: { only_integer: true , greater_than:0, less_than: 1441}
