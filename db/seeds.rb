@@ -192,67 +192,67 @@ puts "Seeding Cooking lists"
 
     #recipe 1
 
-    recipe1_tomato = CookingList.create!(recipe: recipe1, ingredient: tomato, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe1_potato = CookingList.create!(recipe: recipe1, ingredient: potato, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe1_sausage = CookingList.create!(recipe: recipe1, ingredient: sausage, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe1_water = CookingList.create!(recipe: recipe1, ingredient: water, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe1_chicken = CookingList.create!(recipe: recipe1, ingredient: chicken, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe1_onion = CookingList.create!(recipe: recipe1, ingredient: onion, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe1_cayenne_pepper = CookingList.create!(recipe: recipe1, ingredient: cayenne_pepper, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
+    recipe1_tomato = CookingList.create!(recipe: recipe1, ingredient: tomato);
+    recipe1_potato = CookingList.create!(recipe: recipe1, ingredient: potato);
+    recipe1_sausage = CookingList.create!(recipe: recipe1, ingredient: sausage);
+    recipe1_water = CookingList.create!(recipe: recipe1, ingredient: water);
+    recipe1_chicken = CookingList.create!(recipe: recipe1, ingredient: chicken);
+    recipe1_onion = CookingList.create!(recipe: recipe1, ingredient: onion);
+    recipe1_cayenne_pepper = CookingList.create!(recipe: recipe1, ingredient: cayenne_pepper);
 
     #recipe 2
 
-    recipe2_onion = CookingList.create!(recipe: recipe2, ingredient: onion, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe2_vinegar = CookingList.create!(recipe: recipe2, ingredient: vinegar, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe2_olive_oil = CookingList.create!(recipe: recipe2, ingredient: olive_oil, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe2_mustard = CookingList.create!(recipe: recipe2, ingredient: onion, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe2_honey = CookingList.create!(recipe: recipe2, ingredient: honey, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe2_salt = CookingList.create!(recipe: recipe2, ingredient: salt, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe2_pepper = CookingList.create!(recipe: recipe2, ingredient: pepper, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe2_brussel = CookingList.create!(recipe: recipe2, ingredient: brussel, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe2_apple = CookingList.create!(recipe: recipe2, ingredient: apple, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe2_cranberry = CookingList.create!(recipe: recipe2, ingredient: cranberry, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe2_almond = CookingList.create!(recipe: recipe2, ingredient: almond, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
+    recipe2_onion = CookingList.create!(recipe: recipe2, ingredient: onion);
+    recipe2_vinegar = CookingList.create!(recipe: recipe2, ingredient: vinegar);
+    recipe2_olive_oil = CookingList.create!(recipe: recipe2, ingredient: olive_oil);
+    recipe2_mustard = CookingList.create!(recipe: recipe2, ingredient: mustard);
+    recipe2_honey = CookingList.create!(recipe: recipe2, ingredient: honey);
+    recipe2_salt = CookingList.create!(recipe: recipe2, ingredient: salt);
+    recipe2_pepper = CookingList.create!(recipe: recipe2, ingredient: pepper);
+    recipe2_brussel = CookingList.create!(recipe: recipe2, ingredient: brussel);
+    recipe2_apple = CookingList.create!(recipe: recipe2, ingredient: apple);
+    recipe2_cranberry = CookingList.create!(recipe: recipe2, ingredient: cranberry);
+    recipe2_almond = CookingList.create!(recipe: recipe2, ingredient: almond);
 
     #recipe 3
 
-    recipe3_chicken = CookingList.create!(recipe: recipe3, ingredient: chicken, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe3_cayenne_pepper = CookingList.create!(recipe: recipe3, ingredient: cayenne_pepper, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe3_salt = CookingList.create!(recipe: recipe3, ingredient: salt, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe3_black_pepper = CookingList.create!(recipe: recipe3, ingredient: black_pepper, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe3_olive_oil = CookingList.create!(recipe: recipe3, ingredient: olive_oil, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe3_white_wine = CookingList.create!(recipe: recipe3, ingredient: white_wine, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe3_lemon = CookingList.create!(recipe: recipe3, ingredient: lemon, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe3_water = CookingList.create!(recipe: recipe3, ingredient: water, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe3_butter = CookingList.create!(recipe: recipe3, ingredient: butter, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
+    recipe3_chicken = CookingList.create!(recipe: recipe3, ingredient: chicken);
+    recipe3_cayenne_pepper = CookingList.create!(recipe: recipe3, ingredient: cayenne_pepper);
+    recipe3_salt = CookingList.create!(recipe: recipe3, ingredient: salt);
+    recipe3_black_pepper = CookingList.create!(recipe: recipe3, ingredient: black_pepper);
+    recipe3_olive_oil = CookingList.create!(recipe: recipe3, ingredient: olive_oil);
+    recipe3_white_wine = CookingList.create!(recipe: recipe3, ingredient: white_wine);
+    recipe3_lemon = CookingList.create!(recipe: recipe3, ingredient: lemon);
+    recipe3_water = CookingList.create!(recipe: recipe3, ingredient: water);
+    recipe3_butter = CookingList.create!(recipe: recipe3, ingredient: butter);
 
     #recipe 4
 
-    recipe4_sausage = CookingList.create!(recipe: recipe4, ingredient: sausage, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe4_beef = CookingList.create!(recipe: recipe4, ingredient: beef, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe4_onion = CookingList.create!(recipe: recipe4, ingredient: onion, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe4_garlic = CookingList.create!(recipe: recipe4, ingredient: garlic, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe4_tomato = CookingList.create!(recipe: recipe4, ingredient: tomato, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe4_water = CookingList.create!(recipe: recipe4, ingredient: water, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe4_noddles = CookingList.create!(recipe: recipe4, ingredient: noddles, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
+    recipe4_sausage = CookingList.create!(recipe: recipe4, ingredient: sausage);
+    recipe4_beef = CookingList.create!(recipe: recipe4, ingredient: beef);
+    recipe4_onion = CookingList.create!(recipe: recipe4, ingredient: onion);
+    recipe4_garlic = CookingList.create!(recipe: recipe4, ingredient: garlic);
+    recipe4_tomato = CookingList.create!(recipe: recipe4, ingredient: tomato);
+    recipe4_water = CookingList.create!(recipe: recipe4, ingredient: water);
+    recipe4_noddles = CookingList.create!(recipe: recipe4, ingredient: noddles);
 
     #recipe 5 
 
-    recipe5_avocado = CookingList.create!(recipe: recipe5, ingredient: avocado, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe5_lemon = CookingList.create!(recipe: recipe5, ingredient: lemon, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe5_salt = CookingList.create!(recipe: recipe5, ingredient: salt, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe5_cilantro = CookingList.create!(recipe: recipe5, ingredient: cilantro, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe5_onion = CookingList.create!(recipe: recipe5, ingredient: onion, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe5_tomato = CookingList.create!(recipe: recipe5, ingredient: tomato, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe5_garlic = CookingList.create!(recipe: recipe5, ingredient: garlic, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
+    recipe5_avocado = CookingList.create!(recipe: recipe5, ingredient: avocado);
+    recipe5_lemon = CookingList.create!(recipe: recipe5, ingredient: lemon);
+    recipe5_salt = CookingList.create!(recipe: recipe5, ingredient: salt);
+    recipe5_cilantro = CookingList.create!(recipe: recipe5, ingredient: cilantro);
+    recipe5_onion = CookingList.create!(recipe: recipe5, ingredient: onion);
+    recipe5_tomato = CookingList.create!(recipe: recipe5, ingredient: tomato);
+    recipe5_garlic = CookingList.create!(recipe: recipe5, ingredient: garlic);
 
     #recipe 6
 
-    recipe6_flour = CookingList.create!(recipe: recipe6, ingredient: flour, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe6_egg = CookingList.create!(recipe: recipe6, ingredient: egg, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe6_milk = CookingList.create!(recipe: recipe6, ingredient: milk, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe6_water = CookingList.create!(recipe: recipe6, ingredient: water, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe6_salt = CookingList.create!(recipe: recipe6, ingredient: salt, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
-    recipe6_butter = CookingList.create!(recipe: recipe6, ingredient: butter, ingredient_portion: rand(1...1000), ingredient_quantity: rand(1...100));
+    recipe6_flour = CookingList.create!(recipe: recipe6, ingredient: flour);
+    recipe6_egg = CookingList.create!(recipe: recipe6, ingredient: egg);
+    recipe6_milk = CookingList.create!(recipe: recipe6, ingredient: milk);
+    recipe6_water = CookingList.create!(recipe: recipe6, ingredient: water);
+    recipe6_salt = CookingList.create!(recipe: recipe6, ingredient: salt);
+    recipe6_butter = CookingList.create!(recipe: recipe6, ingredient: butter);
 
 puts "Seeding Completed"
