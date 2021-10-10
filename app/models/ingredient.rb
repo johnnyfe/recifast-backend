@@ -8,5 +8,5 @@ class Ingredient < ApplicationRecord
     validates :category, presence: true
     validates :price, presence: true, numericality: { only_integer: true, more_than:1, less_than: 10001}
     validates :quantity, presence: true, numericality: { only_integer: true, more_than:1, less_than: 101}
-    validates :portion, presence: true, numericality: { only_integer: true, more_than:1, less_than: 1001}
+    validates :portion, presence: true, numericality: { only_integer: true, more_than:0, less_than: 1001}
 end
