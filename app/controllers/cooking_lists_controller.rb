@@ -25,7 +25,7 @@ class CookingListsController < ApplicationController
     end
 
     def destroy
-        cookingList = find_cookingList
+        cookingList = cookingList = CookingList.find_by(ingredient_id: params[:id])
         cookingList.destroy
         head :no_content
     end
